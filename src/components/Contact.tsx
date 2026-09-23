@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Check, Copy, MapPin, Phone } from "lucide-react"
+import { Check, Copy, MapPin } from "lucide-react"
 import { profile } from "@/data/profile"
 import { FlowShader } from "@/components/FlowShader"
 import { Section } from "@/components/Section"
@@ -35,9 +35,6 @@ export function Contact() {
         <p className="mt-2 h-4 pl-5 text-xs text-muted-foreground">{copied ? "คัดลอกอีเมลแล้ว" : ""}</p>
 
         <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted-foreground">
-          <a href={`tel:${profile.phone.replace(/-/g, "")}`} className="flex items-center gap-2 hover:text-foreground">
-            <Phone className="size-4" /> {profile.phone}
-          </a>
           <span className="flex items-center gap-2">
             <MapPin className="size-4" /> {profile.location}
           </span>

@@ -5,7 +5,6 @@ export const profile = {
   shortName: "Anantachai",
   role: "Web Developer",
   intro: "สร้างเว็บที่เรียบง่าย ใช้งานง่าย และใส่ใจในรายละเอียด",
-  phone: "090-989-9903",
   email: "anantachai607@gmail.com",
   location: "Thailand",
   github: "https://github.com/anantachai964",
